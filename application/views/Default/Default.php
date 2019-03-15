@@ -96,7 +96,7 @@
 		<div class="container">
 			<div class="row text-center">
 				<div class="headertext col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<h1><?php if (count($amenities) != 0) { echo $amenities[0]->Title; } ?></h1>
+					<h1>Shafiq Branch : <?php if (count($amenities) != 0) { echo $amenities[0]->Title; } ?></h1>
 					<h3><?php if (count($amenities) != 0) { echo $amenities[0]->Summary; } ?></h3>
 				</div>
 				<a href="#" class="btn btn-dark btn-md" data-toggle="modal" data-target="#more"><b>Read More</b></a>
